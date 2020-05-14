@@ -1,12 +1,14 @@
 {
-    "name": "NodeRed",
-    "description": "Breitis NodeRed SmartHome",
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
     "version": "0.0.1",
-    "scripts": {
-        "start": "node --version",
-        "test": "echo \"Error: no test specified\" && exit 1"
-      },
-    "dependencies": {},
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-chatbot": "~0.18.15",
+        "node-red-contrib-telegrambot": "~8.1.0",
+        "node-red-contrib-zigbee2mqtt": "~0.4.0",
+        "node-red-dashboard": "~2.22.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
