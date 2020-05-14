@@ -18,6 +18,8 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
+      env:
+        NODE_ENV: development
       run: |
         docker build . --file ./Docker/nodered-dev/Dockerfile --tag breiti78/mynodered:dev
     - name: docker push
