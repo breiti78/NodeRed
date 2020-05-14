@@ -1,6 +1,6 @@
 {
     "name": "NodeRed",
-    "description": "A Node-RED Project",
+    "description": "Breitis NodeRed SmartHome",
     "version": "0.0.1",
     "dependencies": {},
     "node-red": {
