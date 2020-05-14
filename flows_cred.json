@@ -1,1 +1,1 @@
-{"51241ce3.910134":{}}
+{"51241ce3.910134":{"user":"${MQTTUSER}","password":"${MQTTPASSWORD}"}}
