@@ -2,6 +2,9 @@
     "name": "NodeRed",
     "description": "Breitis NodeRed SmartHome",
     "version": "0.0.1",
+    "scripts": {
+        "start": "node index.js"
+    },
     "dependencies": {},
     "node-red": {
         "settings": {
