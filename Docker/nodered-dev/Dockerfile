@@ -2,7 +2,7 @@ FROM nodered/node-red
 
 # copy node-red project files into place
 COPY flows.json /data/flows.json
-COPY nodered-pro/flows_cred.json /data/flows_cred.json
+COPY nodered-dev/flows_cred.json /data/flows_cred.json
 COPY ./Docker/nodered-dev/settings_Dev.js /data/settings.js
 
 # copy package.json to the WORKDIR so npm builds for node-red
