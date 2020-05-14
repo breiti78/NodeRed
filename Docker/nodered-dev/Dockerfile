@@ -8,5 +8,3 @@ COPY ./Docker/nodered-dev/settings_Dev.js /data/settings.js
 # copy package.json to the WORKDIR so npm builds for node-red
 COPY package.json .
 RUN npm install --unsafe-perm --no-update-notifier --no-audit --only=production
-
-CMD ["npm", "start"]
