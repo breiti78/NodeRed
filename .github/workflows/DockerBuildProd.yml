@@ -19,7 +19,7 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
       run: |
-        docker build . --file ./Docker/nodered-prod/Dockerfile --tag breiti78/mynodered:latest
+        docker build . --file Dockerfile --tag breiti78/mynodered:latest
     - name: docker push
       run: |
         docker push breiti78/mynodered:latest
