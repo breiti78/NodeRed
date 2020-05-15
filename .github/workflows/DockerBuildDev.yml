@@ -21,7 +21,7 @@ jobs:
       env:
         NODE_ENV: development
       run: |
-        docker build . --file ./Docker/nodered-dev/Dockerfile --tag breiti78/mynodered:dev
+        docker build . --file Dockerfile --tag breiti78/mynodered:dev
     - name: docker push
       run: |
         docker push breiti78/mynodered:dev  
