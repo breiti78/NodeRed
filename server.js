@@ -71,11 +71,9 @@ function formatRoot(root) {
 if (process.env.NODE_ENV === "production") {
   settings.httpAdminRoot = false;
   settings.httpNodeRoot = false;
-  settings.editorTheme.projects.enabled = false
 } else {
   settings.httpRoot = settings.httpRoot||"/";
   settings.disableEditor = settings.disableEditor||false;
-  settings.editorTheme.projects.enabled = true
 }
 
 if (settings.httpAdminRoot !== false) {
