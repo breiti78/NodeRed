@@ -68,7 +68,7 @@ function formatRoot(root) {
   return root;
 }
 
-if (process.env.NODE_ENV === production) {
+if (process.env.NODE_ENV === "production") {
   settings.httpAdminRoot = false;
   settings.httpNodeRoot = false;
   settings.editorTheme.projects.enabled = false
