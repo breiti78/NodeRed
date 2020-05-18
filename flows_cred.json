@@ -1,1 +1,1 @@
-{}
+{"aeaee698.066bd8":{"user":"${MQTTUSER}","password":"${MQTTPW}"},"4220e2b.fee729c":{"username":"${INFLUXUSER}","password":"${INFLUXPW}"}}
