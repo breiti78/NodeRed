@@ -1,1 +1,1 @@
-{"aeaee698.066bd8":{"user":"${MQTTUSER}","password":"${MQTTPW}"}}
+{"aeaee698.066bd8":{"user":"${MQTTUSER}","password":"${MQTTPW}"},"4220e2b.fee729c":{"username":"${INFLUXUSER}","password":"${INFLUXPW}"},"90c49d5e.e5ec5":{"token":"${TELEGRAMTOKEN}"}}
